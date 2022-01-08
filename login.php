@@ -12,7 +12,6 @@ if ($conn->connect_error) {
 if (!isset($_SESSION)) {
   session_start();
 }
-
 ?>
 
 <html>

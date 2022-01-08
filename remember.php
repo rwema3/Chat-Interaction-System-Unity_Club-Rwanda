@@ -346,7 +346,7 @@ else
 echo"<p class='wrong'>&nbsp; unknown information </p>";
 }
 }
-
+mysql_close($connexion);
 ?>
 
 <table border="0" align="center"  width="680">
