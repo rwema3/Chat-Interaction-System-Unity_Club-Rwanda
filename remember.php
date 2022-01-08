@@ -1,24 +1,17 @@
 <?php
-// MySQL connection variables
-// Server name 
-$hostname = "localhost";
-// Name of the MySQL database
-$database = "membership";
-// Login mysql user
+
+$servername = "localhost";
 $username = "root";
-// Login mysql password
 $password = "";
+$dbname = "membership";
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error) {  
+    die("Connection failed: " . $conn->connect_error);
+} 
 
-// Connection String
-$conn = mysql_connect($hostname, $username, $password);
-// MySQL select database
-mysql_select_db($database, $conn);
-
-//registering a login session
 if (!isset($_SESSION)) {
-  session_start();
+   session_start();
 }
-
 ?>
 
 <html>
@@ -320,18 +313,6 @@ a{
 <?php
  
  
-$server="localhost";
-
-$database="membership";
-
-$login="root";
-
-$password="";
-
-$connexion=mysql_connect ($server, $login, $password) or die ('Server cannot be found'.mysql_error ( ));
-mysql_select_db ($database,$connexion)or die ('database cannot be found'.mysql_error( ));
- 
- 
  if(isset($_POST['remember']))
 
   {
@@ -365,7 +346,7 @@ else
 echo"<p class='wrong'>&nbsp; unknown information </p>";
 }
 }
-mysql_close($connexion);
+
 ?>
 
 <table border="0" align="center"  width="680">
