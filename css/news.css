@@ -1,0 +1,69 @@
+	
+	.unitynews{
+		width:200px;
+		height:380px;
+		float:left;
+		position:relative;
+	}
+	.unitynews:first-child{
+		margin-left:3px;
+	}
+	
+	.uclub{
+		width:215px;
+		height:350px;
+		border:1px solid;
+		overflow:hidden;
+		margin:5px 0 0 5px;
+	}
+	
+	.uclub img{
+		width:250px;
+		height:300px;
+	}
+	.uclub:hover img{
+		width:250px;
+		 height:370px;
+		 margin:-10px 0 0 -10px;
+		 transition: 1s ease-in-out;
+		 transition-duration: 0.35s;
+		}
+	
+	.unity{
+		position:absolute;
+		top:317px;
+		left:auto;
+		right:auto;
+		width:80%;
+		height:50px;
+		overflow:hidden;
+		margin:0 5%;
+		text-align:center;
+		display:block;
+		padding:2px 10%;
+	}
+
+	.unitynews .unity{
+		background:#000033;
+		}
+	.unitynews:hover .unity {
+
+    background: -webkit-linear-gradient(top, blue 0%,#00CCCC  100%);
+    background: -moz-linear-gradient(top, blue 0%,#00CCCC  100%);
+    background: -o-linear-gradient(top, blue 0%,#00CCCC  100%);
+    background: -ms-linear-gradient(top, blue 0%,#00CCCC  100%);
+    background: linear-gradient(top, blue 0%,#00CCCC  100%);
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+    z-index:2;
+    color: white;
+		
+	}
+	
+	b{
+		color: white;
+	}
+
+
+	

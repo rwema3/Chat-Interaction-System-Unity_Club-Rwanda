@@ -1,0 +1,170 @@
+div#main{
+    margin:10px auto;
+    width:30%;
+    min-width: 70px;
+    min-height:50px;
+    border:1px solid gray;
+    border-radius:3px;
+    background:#000033;
+    box-shadow: 100px;
+    opacity: 0.8;
+
+}
+div#main .header{
+    width:100%;
+    min-height: 100px;
+    margin-top: -60px;
+    color: white;
+    font-family: whitrabt; 
+    background: white;
+    background: -webkit-linear-gradient(top, blue 0%,#00CCCC  100%);
+    background: -moz-linear-gradient(top, blue 0%,#00CCCC  100%);
+    background: -o-linear-gradient(top, blue 0%,#00CCCC  100%);
+    background: -ms-linear-gradient(top, blue 0%,#00CCCC  100%);
+    background: linear-gradient(top, blue 0%,#00CCCC  100%);
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+    z-index:2;
+}
+
+div#main .header .logo
+{
+    float: left;
+    margin: 5px;
+    width:20%;
+    background: none;
+    height: 70px;
+    padding:10px;
+}
+
+
+div#main .header img
+{
+margin-right: 170px;
+height: 100px;
+width: 100px;
+}
+
+form { padding: 2.5em; }
+        .group {position: relative; margin-bottom: 2.4em; }
+
+        label {
+
+            color: white;
+            font-size: 17px;
+            font-weight: normal;
+            font-family: cursive;
+            position: absolute;
+            pointer-events: none;
+            top: 10px;
+            transition: 0.2s ease all;
+        } 
+
+        input[type="text"]
+
+        {
+            color: #909090;
+            background: #000033;
+            font-size: 15px;
+            padding: 10px 0px 10px 0px;
+            width: 270px;
+            border-bottom: 1px solid green;
+            margin-bottom: 0px; 
+        }
+
+   input[type="password"]
+
+        {
+            color: #909090;
+            font-size: 15px;
+            padding: 10px 5px 10px 0px;
+            width: 270px;
+            background: #000033;
+            border-bottom: 1px solid green; 
+
+        }
+       
+
+        .bar{position: relative; display: block; width: 270px; }
+
+        .bar:before, .bar:after{
+            content: "";
+            height: 2px;
+            width: 0;
+            bottom: -1px;
+            position: absolute;
+            background: red;
+            transition: 0.2s ease all;
+        }
+        .bar:before {left: 50%; }
+        .bar:after {right: 50%; }
+
+        input:valid {border-bottom: 1px solid green; }
+
+        input:valid ~ .bar:before,
+        input:valid ~ .bar:after{
+            background-color: green !important;
+        }
+
+        input:focus ~ label,
+        input.used ~ label {
+            top: -12px;
+            font-size: 13px;
+            color:green;
+        }
+
+        input:valid ~ label,
+        input:valid.used ~ label {
+            color: green;
+        }
+        input:focus ~ .bar:before,
+        input:focus ~ .bar:after{
+            width: 50%;
+        }
+.wrong
+{
+    font-size:17px;
+    width: 340px;
+    font-family: cursive;
+    margin-top: -30px;
+    margin-left: -20px;
+    color:#FF0000;
+    text-align: left;
+    font-weight:bold;
+    padding:5px 5px 5px 25px;
+    border:#FF0000 thin solid;
+    background: url('wrong.png') left center no-repeat;
+}
+.success
+{
+    font-size:14px;
+    width: 340px;
+    font-family: comic;
+     margin-top: -30px;
+    margin-left: -20px;
+    color:#008800;
+    text-align:center;
+    font-weight:bold;
+    padding:10px 10px 10px 10px;
+    border:#008000 thin solid;
+    background:  right center no-repeat;
+}
+
+   .btn-login{
+            padding:15px 25px;
+            color: #fff;
+            background-color: #000033;
+        }
+        td .link{
+          color:white;
+        margin-top: 300px;
+        font-size: 17px;
+        }
+        p{
+          position: absolute;
+          margin-top: 40px;
+          margin-right: 400px;
+        }
+
+        

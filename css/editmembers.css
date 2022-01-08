@@ -1,0 +1,259 @@
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+
+  margin: 3;
+  padding: 0;
+  border: none;
+  list-style: none;
+  line-height: none;
+  display: block;
+  position: relative;
+  background: #000033;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: none;
+  clear: both;
+  visibility: all;
+  line-height: none;
+  height: none;
+}
+
+#cssmenu {
+  width: auto;
+  font-family:cursive;
+  box-shadow: none; 
+}
+
+#cssmenu > ul > li {
+  display: inline-block;
+}
+#cssmenu.align-center > ul {
+  float: none;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  padding: 18px 25px 21px 25px;
+  border-right: 1px solid blue/*color of small lines*/;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 400;
+  color: green;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li.active > a {
+  color: white;
+  background: green;
+  
+}
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 40px;
+}
+#cssmenu > ul > li.has-sub > a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top-color: white;
+  right: 17px;
+  top: 22px;
+}
+
+#cssmenu ul ul {
+
+  position: absolute;
+  left: -9999px;
+  top: 60px;
+  padding-top: 6px;
+  font-size: 13px;
+  opacity: 0;
+  -webkit-transition: top 0.2s ease, opacity 0.2s ease-in;
+  -moz-transition: top 0.2s ease, opacity 0.2s ease-in;
+  -ms-transition: top 0.2s ease, opacity 0.2s ease-in;
+  -o-transition: top 0.2s ease, opacity 0.2s ease-in;
+  transition: top 0.2s ease, opacity 0.2s ease-in;
+}
+
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > ul::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-bottom-color;
+  top: -4px;
+  left: 20px;
+}
+#cssmenu.align-right > ul > li > ul::after {
+  left: auto;
+  right: 20px;
+}
+#cssmenu ul ul ul::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-right-color: red;
+  top: 11px;
+  left: -4px;
+}
+#cssmenu.align-right ul ul ul::after {
+  border-right-color: initial;
+  border-left-color: green;
+  left: auto;
+  right: -4px;
+}
+#cssmenu > ul > li > ul {
+  top: 120px;
+}
+#cssmenu > ul > li:hover > ul {
+  top: 52px;
+  left: 2;
+  opacity: 1;
+}
+#cssmenu.align-right > ul > li:hover > ul {
+  left: auto;
+  right: 0;
+}
+
+#cssmenu.align-right ul ul ul {
+  padding-right: 6px;
+}
+#cssmenu ul ul > li:hover > ul {
+  left: 180px;
+  top: 0;
+  opacity: 1;
+}
+
+#cssmenu ul ul li a {
+  text-decoration: none;
+  font-weight: 900;
+  padding: 11px 25px;
+  width: 180px;
+  color: blue;
+  background:white;
+}
+
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li.active > a
+{
+background-color:green;
+}
+
+
+ div#main input[type="submit"],input[type="reset"]{
+
+      color: white;
+      font-size: 14px;
+      background: #000033;
+      font-family: cursive;
+      width: 70px;
+      height: 40px;
+      position: center;
+    }
+.success
+{
+  font-size:14px;
+  font-family: cursive;
+  margin-left: -60px;
+  width: 330px;
+  color:#008800;
+  text-align:center;
+  font-weight:none;
+  padding:10px 10px 10px 10px;
+  border:#008000 thin solid;
+  background:white;
+}
+  
+   
+form { padding: 0.0em; }
+
+    div#input .group {position: relative; margin-bottom: 1.4em; } 
+
+   div#input label {
+
+      color: green;
+      font-size: 15px;
+      font-weight: normal;
+      font-family: cursive;
+      position: absolute;
+      pointer-events: none;
+      top: 10px;
+      transition: 0.2s ease all;
+    } 
+
+   div#input  input{
+      color: #909090;
+      font-size: 15px;
+      padding: 10px 0px 10px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      font-family: cursive;
+      background: #000033;
+      width: 250px;
+      border-bottom: 1px solid #d2d2d2; 
+    }
+
+    /*Bars Animations*/
+    
+     div#input .bar{position: relative; display: block; width: 250px; }
+
+     div#input .bar:before, .bar:after{
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #5264ae;
+      transition: 0.2s ease all;
+    }
+
+    div#input .bar:before {left: 50%; }
+    div#input .bar:after {right: 50%; }
+
+    /*INPUT VALIDATIONS*/
+
+      div#input  input:valid {border-bottom: 1px solid #4fc24f; }
+
+     div#input input:valid ~ .bar:before,
+     div#input input:valid ~ .bar:after {
+      background-color: #4fc24f !important;
+        }
+
+       div#input input:focus ~ label,
+    div#input input.used ~ label {
+      top: -20px;
+      font-size: 13px;
+      color: #5264ae;
+    }
+
+   div#input input:valid ~ label,
+   div#input input:valid.used ~ label {
+      color: #4fc24f;
+    }
+
+   div#input input:focus ~ .bar:before,
+    div#input input:focus ~ .bar:after{
+      width: 50%;
+    }
+    

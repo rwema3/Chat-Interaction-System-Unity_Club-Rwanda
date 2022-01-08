@@ -1,0 +1,134 @@
+		h1{
+	font-family: cursive; 
+	font-size: 30px;
+	text-align: left;
+}
+
+p{
+	font-size: 20px;
+	font-stretch: expanded;
+
+}
+		form { padding: 3.5em; }
+		.group {position: relative; margin-bottom: 2.4em; }
+
+	   div#main label {
+
+			color: white;
+			font-size: 15px;
+			font-family: comic;
+			font-weight: normal;
+			font-family: cursive;
+			position: absolute;
+			pointer-events: none;
+			top: 2px;
+			transition: 0.2s ease all;
+		} 
+		
+
+        div#main input[type="text"],input[type="password"] {
+			color: white;
+			font-size: 17px;
+			padding: 20px 0px 10px 0px;
+			display: block;
+			background: #000033;
+			outline: none;
+			border: none;
+			width: 300px;
+			height: 3px;
+			border-bottom: 1px solid white; 
+		}
+		 div#main input[type="submit"]{
+            color: white;
+			font-size: 17px;
+			background: #000033;
+			font-family: cursive;
+			width: 150px;
+			height: 50px;
+			position: center;
+		}
+		
+		div#input .bar{position: relative; display: block; width: 300px; }
+
+		div#input .bar:before, .bar:after{
+			content: "";
+			height: 2px;
+			width: 0;
+			bottom: -1px;
+			position: absolute;
+			background: green;
+			transition: 0.2s ease all;
+		}
+		div#input .bar:before {left: 50%; }
+		div#input .bar:after {right: 50%; }
+
+		div#input input:valid {border-bottom: 1px solid green; }
+
+		div#input input:valid ~ .bar:before,
+		div#input input:valid ~ .bar:after{
+			background-color: green !important;
+		}
+
+		div#input input:focus ~ label,
+		div#input input.used ~ label {
+			top: -20px;
+			font-size: 15px;
+			color: white;
+		}
+
+		div#input input:valid ~ label,
+		div#input input:valid.used ~ label{
+			color: #4fc24f;
+		}
+		div#input input:focus ~ .bar:before,
+		div#input input:focus ~ .bar:after{
+			width: 50%;
+		}
+		
+		.login{
+			font-size: 20px;
+			font-family: cursive;
+			list-style: none;
+			color: green;
+
+		}
+		.district{
+		color: white;
+
+		}
+
+
+div#main{
+	margin:10px auto;
+	width:73%;
+	min-width: 900px;
+	min-height: 500px;
+	border:1px solid gray;
+	border-radius:3px;
+	background: #000033;
+	opacity: 0.8;
+
+}
+div#main .header{
+	width:100%;
+	min-height: 100px;
+	background: #006666;
+	margin-top: -60px;
+  color: white;
+  font-family: whitrabt; 
+}
+a{
+	font-size: 30px;
+	font-family: cursive;
+	position: relative;
+	color: white;
+}
+
+.accept{
+	color: white;
+	font-size:17px; 
+	font-family: cursive;
+}
+.accept a{
+	font-size: 13px;
+}
