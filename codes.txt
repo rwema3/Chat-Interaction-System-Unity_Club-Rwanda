@@ -1,0 +1,19 @@
+<?php
+include('empconnect.php');
+session_start();
+if(isset($_SESSION['adminname']))
+ {
+  $mail=$_SESSION['adminname'];
+ } else {
+ 	echo "<META http-equiv=refresh content=0;url=index1.php>";
+ }
+ ?>
+ <?php
+
+$adminname=$_SESSION['adminname'];
+
+$result=mysql_query("SELECT * from admins where adminname='$adminname'")or die(mysql_error());
+$row=mysql_fetch_array($result);
+$adminname=$row['adminname'];
+$password=$row['password'];
+?>
