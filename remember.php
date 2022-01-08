@@ -311,29 +311,28 @@ a{
 
 <form method="POST">
 <?php
- 
- 
+
  if(isset($_POST['remember']))
 
-  {
-    
+  { 
    $firstname=$_POST['fname'];
    
     $lastname=$_POST['lname'];
 
     $username=$_POST['username'];
 
-   $sql="SELECT * FROM admin where fname='$firstname' AND lname='$lastname' AND username='$username' ;"; 
-   $result_set=mysql_query($sql,$connexion);
+   $sql = "SELECT * FROM admin where fname='$firstname' AND lname='$lastname' AND username='$username'";
+
+   $result_set = $conn->query($sql);
    if(!$result_set)
    {
-   die("Query faill".mysql_error());
+   die("Query faill".mysqli_error());
    }
-if(mysql_num_rows($result_set)>0)
+if(mysqli_num_rows($result_set)>0)
 {
 
 //$num=mysql_num_rows($result_set);
-while($row=mysql_fetch_array($result_set))
+while($row=mysqli_fetch_array($result_set))
 {
 $password=$row[4];
 
@@ -346,7 +345,7 @@ else
 echo"<p class='wrong'>&nbsp; unknown information </p>";
 }
 }
-mysql_close($connexion);
+
 ?>
 
 <table border="0" align="center"  width="680">
