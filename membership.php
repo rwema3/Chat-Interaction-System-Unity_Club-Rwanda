@@ -453,7 +453,6 @@ div#baji .ba{
 if (isset($_POST['sign'])) { // if form has been submitted
 //if (!get_magic_quotes_gpc()) {
 
-
   $password = $_POST['password'];
   $username = $_POST['username'];
   //if the login form is submitted
