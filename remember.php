@@ -346,7 +346,6 @@ echo"<p class='wrong'>&nbsp; unknown information </p>";
 }
 
 ?>
-
 <table border="0" align="center"  width="680">
     <tr>
 <td> 

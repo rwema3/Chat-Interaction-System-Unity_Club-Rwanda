@@ -154,7 +154,6 @@ include("connect.php");
   echo' <meta content="5;membership.php" http-equiv="refresh" />';
 
        } 
-
   elseif($password==$repassword)
 
   {
