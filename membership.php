@@ -452,7 +452,7 @@ div#baji .ba{
 //if the login form is submitted
 if (isset($_POST['sign'])) { // if form has been submitted
 //if (!get_magic_quotes_gpc()) {
-
+//if the login form is submitted
   $password = $_POST['password'];
   $username = $_POST['username'];
   //if the login form is submitted
@@ -467,7 +467,7 @@ $sql = "SELECT * FROM users where username = '$username' and password='$password
 
     echo '<center class=wrong>Unvalid Member Account</center></center>';
     echo "<META http-equiv=refresh content=3; URL=membership.php>";
-    
+
     }
     
     else
