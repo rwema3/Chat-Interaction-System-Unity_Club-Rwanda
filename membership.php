@@ -460,11 +460,11 @@ if (isset($_POST['sign'])) { // if form has been submitted
 $sql = "SELECT * FROM users where username = '$username' and password='$password'";
 
   $result = $conn->query($sql);
-      
+   //if the login form is submitted   
   echo "<div class=error>";   
   
   $count_row = $result->num_rows;
-
+//if the login form is submitted
   if ($count_row == 0) {
 
     echo '<center class=wrong>Unvalid Member Account</center></center>';

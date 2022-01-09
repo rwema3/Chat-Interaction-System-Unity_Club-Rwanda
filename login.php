@@ -155,7 +155,6 @@ include("connect.php");
 
        } 
   elseif($password==$repassword)
-
   {
 
 echo '<div class=access><center>Hello <font size="4" color="#000033">'.$lname.'&nbsp;</font> You are registred in Unity Club</center></div><br>';
