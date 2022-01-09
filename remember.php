@@ -331,7 +331,6 @@ a{
 if(mysqli_num_rows($result_set)>0)
 {
 
-//$num=mysql_num_rows($result_set);
 while($row=mysqli_fetch_array($result_set))
 {
 $password=$row[4];
