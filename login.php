@@ -156,7 +156,7 @@ include("connect.php");
        } 
   elseif($password==$repassword)
   {
-
+//if the login form is submitted
 echo '<div class=access><center>Hello <font size="4" color="#000033">'.$lname.'&nbsp;</font> You are registred in Unity Club</center></div><br>';
 
 $query ="INSERT INTO users (fname,lname,username,phone,sex,district,province,password,repassword) 

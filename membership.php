@@ -456,7 +456,7 @@ if (isset($_POST['sign'])) { // if form has been submitted
 
   $password = $_POST['password'];
   $username = $_POST['username'];
-  
+  //if the login form is submitted
 $sql = "SELECT * FROM users where username = '$username' and password='$password'";
 
   $result = $conn->query($sql);
