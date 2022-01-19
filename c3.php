@@ -15,8 +15,7 @@
   border-radius:3px;
   background-image: url(administ.jpg);
   opacity: none;
-  margin-top: -50px;
-
+  margin-top: -40px;
 }
 form { padding: 3.5em; }
     .group {position: relative; margin-bottom: 2.4em; }

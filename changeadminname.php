@@ -122,7 +122,7 @@ body{
   left: -9999px;
   top: 60px;
   padding-top: 6px;
-  font-size: 14px;
+  font-size: 13px;
   opacity: 1;
   -webkit-transition: top 0.2s ease, opacity 0.2s ease-in;
   -moz-transition: top 0.2s ease, opacity 0.2s ease-in;
@@ -130,11 +130,11 @@ body{
   -o-transition: top 0.2s ease, opacity 0.2s ease-in;
   transition: top 0.2s ease, opacity 0.2s ease-in;
 }
-
 }
 #cssmenu.align-right ul ul {
   text-align: right;
 }
+
 #cssmenu > ul > li > ul::after {
   content: "";
   position: absolute;
