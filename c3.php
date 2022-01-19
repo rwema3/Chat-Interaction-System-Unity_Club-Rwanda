@@ -8,7 +8,7 @@
 
   div#main{
   margin:10px auto;
-  width:50%;
+  width:51%;
   min-width: 900px;
   min-height: 300px;
   border:1px solid gray;
