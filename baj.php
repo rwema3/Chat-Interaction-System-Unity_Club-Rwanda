@@ -39,7 +39,7 @@ div#baji .ba{
     margin-top: -100px;
 }
 .copy{
-    font-size: 8px;
+    font-size: 7px;
     color:green;
     margin-top: -31px;
     margin-left: 100px;
