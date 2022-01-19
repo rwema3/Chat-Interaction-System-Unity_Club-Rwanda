@@ -45,7 +45,7 @@ div#baji .ba{
     margin-left: 100px;
 }
 .rwanda{
-        margin-left: 80px;
+        margin-left: 81px;
     }
     button{
         margin-top: -500px;
