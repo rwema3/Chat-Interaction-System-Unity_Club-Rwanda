@@ -112,7 +112,7 @@ body{
   height: 0;
   border: 6px solid transparent;
   border-top-color: white;
-  right: 17px;
+  right: 18px;
   top: 22px;
 }
 
