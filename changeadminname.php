@@ -86,8 +86,8 @@ body{
   text-align: right;
 }
 #cssmenu > ul > li > a {
-  padding: 18px 25px 21px 25px;
-  border-right: 1px solid blue/*color of small lines*/;
+  padding: 17px 25px 21px 25px;
+  border-right: 1px solid blue/*color of small*/;
   text-decoration: none;
   font-size: 10px;
   font-weight: 400;
