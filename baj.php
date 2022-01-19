@@ -41,7 +41,7 @@ div#baji .ba{
 .copy{
     font-size: 8px;
     color:green;
-    margin-top: -33px;
+    margin-top: -31px;
     margin-left: 100px;
 }
 .rwanda{
