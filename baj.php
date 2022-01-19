@@ -48,7 +48,7 @@ div#baji .ba{
         margin-left: 81px;
     }
     button{
-        margin-top: -500px;
+        margin-top: -501px;
     }
 
 </style>
