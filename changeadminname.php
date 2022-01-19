@@ -142,7 +142,7 @@ body{
   height: 0;
   border: 5px solid transparent;
   border-bottom-color;
-  top: -4px;
+  top: -3px;
   left: 20px;
 }
 #cssmenu.align-right > ul > li > ul::after {
