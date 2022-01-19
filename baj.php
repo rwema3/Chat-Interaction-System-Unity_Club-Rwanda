@@ -17,7 +17,7 @@ div#baji{
 }
 div#baji .rwema{
     width: 100%;
-    height: 70px;
+    height: 71px;
     font-family: cursive;
   
 }
