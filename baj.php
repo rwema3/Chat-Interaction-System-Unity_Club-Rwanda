@@ -28,7 +28,7 @@ div#baji .rwema{
     margin-top: -30px;
 }
 .dis{
-	margin-top: -30px;
+	margin-top: -31px;
 }.sign{
     margin-top: -10px;
 }
