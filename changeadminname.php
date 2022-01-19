@@ -170,7 +170,7 @@ body{
 }
 #cssmenu > ul > li:hover > ul {
   top: 52px;
-  left: 2;
+  left: 3;
   opacity: 1;
 }
 #cssmenu.align-right > ul > li:hover > ul {
