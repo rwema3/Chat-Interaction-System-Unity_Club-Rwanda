@@ -9,7 +9,7 @@
   div#main{
   margin:10px auto;
   width:50%;
-  min-width: 900px;
+  min-width: 901px;
   min-height: 300px;
   border:1px solid gray;
   border-radius:3px;
