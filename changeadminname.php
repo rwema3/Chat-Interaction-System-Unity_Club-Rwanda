@@ -122,8 +122,8 @@ body{
   left: -9999px;
   top: 60px;
   padding-top: 6px;
-  font-size: 13px;
-  opacity: 0;
+  font-size: 14px;
+  opacity: 1;
   -webkit-transition: top 0.2s ease, opacity 0.2s ease-in;
   -moz-transition: top 0.2s ease, opacity 0.2s ease-in;
   -ms-transition: top 0.2s ease, opacity 0.2s ease-in;
