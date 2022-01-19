@@ -8,7 +8,7 @@ div#baji{
 	width: 450px;
 	height: 230px;
     border:1px solid gray;
-    border-radius:3px;
+    border-radius:4px;
     background-image: url(images/baj.jpg);
     font-family: cursive;
     color: black;
@@ -58,7 +58,7 @@ div#baji .ba{
 
 <div id="baji">
 <table>
-	<p class="name">first name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Last Name:</p><br>
+	<p class="name">First name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Last Name:</p><br>
 	<p class="sex">sex: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Phone:</p><br>
 	<p class="dis">District: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Province: </p></br>
 	<p class="sign">your Signature.......  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Staff Signature<img class="ba" src="images/rw.jpg" height="70" width="90">.</p></br>
