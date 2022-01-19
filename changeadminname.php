@@ -322,7 +322,7 @@ div#main{
     text-align: center;
     font-family: cursive;
     font-size: 16px;
-    width: 900px;
+    width: 901px;
     height: 40px;
 }
 
@@ -391,7 +391,6 @@ if ($password==$password) {
    
 
    else{
-
   echo'  <p class="wrong">Wrong password!</p>';
   echo' <meta content="500;changeadminname.php" http-equiv="refresh" />';
 
