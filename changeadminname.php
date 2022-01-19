@@ -385,7 +385,7 @@ if ($password==$password) {
   $query="UPDATE admin SET fname='{$newfname}', lname='{$newlname}',username='{$newusername}'";
   $result = $conn->query($query);
   
-     echo'  <p class="success"> Your Names has been successfuly changed!</p>';
+     echo'  <p class="success">ww, Your Names has been successfuly changed!</p>';
      echo' <meta content="6;changeadminname.php" http-equiv="refresh" />';  
    }
    
