@@ -7,6 +7,7 @@
 <style>
 
   div#main{
+    
   margin:10px auto;
   width:51%;
   min-width: 900px;
@@ -17,6 +18,7 @@
   opacity: none;
   margin-top: -40px;
 }
+
 form { padding: 3.5em; }
     .group {position: relative; margin-bottom: 2.4em; }
 
