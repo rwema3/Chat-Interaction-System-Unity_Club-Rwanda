@@ -7,7 +7,7 @@
 <style>
   div#main{ 
   margin:10px auto;
-  width:51%;
+  width:50%;
   min-width: 900px;
   min-height: 300px;
   border:1px solid gray;
@@ -15,12 +15,6 @@
   background-image: url(administ.jpg);
   opacity: none;
   margin-top: -40px;
-}
-form { padding: 3.5em; }
-    .group {position: relative; margin-bottom: 2.4em; }
-
-     div#main label {
-
       color: white;
       font-size: 16px;
       font-family: comic;
@@ -28,7 +22,7 @@ form { padding: 3.5em; }
       font-family: cursive;
       position: absolute;
       margin-left:-100px;
-      pointer-events: none;
+      pointer-events: none;f
       top: 2px;
       transition: 0.2s ease all;
     } 
