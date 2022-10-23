@@ -1,9 +1,9 @@
-# Rwema_php-mysql_final_Project_2k27
+# Chat & Interaction System-Unity_Club Rwanda
 This is my 2017 final project made with php &amp; MySQL
 
 prerequisites:
 
-1-Download the repository
+1-Clone the repository
 
 2-import the database (mysql,postgreSQL...)
 
